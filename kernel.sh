@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $(UID) -ne 0 ]
+if [ ${UID} -ne 0 ]
 then
 echo "you need root access"
 exit 1
@@ -8,5 +8,8 @@ fi
 
 lscpu
 lsblk
-unmae -r
+uname -r
 iostat
+cat /proc/meminfo
+cat /proc/cpuinfo
+lsb_release -a
