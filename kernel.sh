@@ -9,3 +9,4 @@ fi
 lscpu
 lsblk
 unmae -r
+iostat
