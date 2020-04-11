@@ -13,3 +13,6 @@ iostat
 cat /proc/meminfo
 cat /proc/cpuinfo
 lsb_release -a
+cat /etc/os-release
+nproc
+free -m
