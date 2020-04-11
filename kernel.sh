@@ -12,3 +12,4 @@ unmae -r
 iostat
 cat /etc/os-release
 nproc
+free -m
